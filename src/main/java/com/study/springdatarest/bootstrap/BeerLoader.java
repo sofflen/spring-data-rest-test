@@ -55,7 +55,7 @@ public class BeerLoader implements CommandLineRunner {
     private final BeerRepository beerRepository;
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         loadBeerObjects();
     }
 
